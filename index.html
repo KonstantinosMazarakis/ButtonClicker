@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="everything">
+        <nav class="flexed">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="logOut(this)">Login</button>
+        </nav>
+        <main class="flexed">
+            <article class="leftside">
+                <div class="tweet flexed">
+                    <div class="tweetleft">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="like(this)">13 Likes</button>
+                    </div>
+                    <div class="tweetright">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="tweet flexed">
+                    <div class="tweetleft">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button>34 Likes</button>
+                    </div>
+                    <div class="tweetright">
+                        <p>A <a href="#">programmer</a> who breaks doen problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>            
+            </article>
+            <article class="rightside">
+                <div class="comment">
+                    <h1>Dojonary is defined by YOU</h1>
+                    <button onclick="remove(this)">Add Definition</button>
+                </div>
+            </article>
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.everything {
+    /* background-color: blueviolet; */
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    background-color: gray;
+    min-height: 70px;
+    margin-bottom: 3%;
+}
+
+nav h1 {
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+
+nav input {
+    border: 2px solid black;
+    width: 30%;
+    padding: 0.25% 0.40%;
+}
+
+nav button {
+    background-color:#2b78e4;
+    padding: .25% 1.25%;
+    border: 2px solid black;
+    box-shadow: 3px 2px 1px 1px black;
+}
+
+main {
+    /* background-color: green; */
+    height: 100%;
+}
+
+.leftside {
+    /* background-color: darkred; */
+    height: 100%;
+    flex:3;
+}
+
+.rightside {
+    /* background-color: darksalmon; */
+    height: 100%;
+    flex: 2;
+}
+
+.tweet {
+    /* background-color: darkslategray; */
+    height: 30%;
+    margin: 5%;
+    border: 2px solid black;
+}
+
+.tweetleft {
+    /* background-color: darkblue; */
+    flex: 1;
+    text-align: center;
+}
+
+.tweetleft h1 {
+    font-size: 3rem;
+}
+
+.tweetleft button{
+    margin-top: 50%;
+    background-color: rgb(168, 168, 0);
+    padding: 2% 7%;
+    border: 2px solid black;
+    box-shadow: 3px 2px 1px 1px black;
+}
+
+.tweetright{
+    /* background-color: cadetblue; */
+    flex: 3;
+    text-align: center;
+}
+
+.comment {
+    /* background-color: darkturquoise; */
+    height: 20%;
+    margin: 5%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.comment h1 {
+    margin: 5% 0;
+}
+
+.comment button {
+    margin-top: 7%;
+    border: 2px solid black;
+    box-shadow: 3px 2px 1px 1px black;
+    background-color: rgb(88, 163, 88);
+    padding: 2% 7%;
+    font-size: large;
+}
