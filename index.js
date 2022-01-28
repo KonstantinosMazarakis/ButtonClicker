@@ -1,6 +1,6 @@
 function like(element){
     element.innerText = "14 likes";
-    alert("Nija was Liked")
+    alert("Ninja was Liked")
 }
 
 function logOut(element){
